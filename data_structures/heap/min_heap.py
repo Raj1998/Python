@@ -26,7 +26,7 @@ class MinHeap:
         for i in range(startFrom, -1, -1):
             self.siftDown(i, array)
         return array
-
+ 
     # this is min-heapify method
     def siftDown(self, idx, array):
         while True:
